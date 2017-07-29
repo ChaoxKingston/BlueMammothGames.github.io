@@ -1,0 +1,75 @@
+html {
+    background-color: #FFF;
+}
+a {
+	text-decoration: none;
+	color: #0040A8;
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    font-family: arial, verdana, helvetica, sans-serif;
+}
+body #head-nav {
+    width: 980px;
+    height: 87px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+body #head-nav #bmglogo {
+    width: 198px;
+    height: 87px;
+    display: block;
+	margin-right: 295px;
+    float: left;
+    background: url("bmglogosimple.png");
+}
+a.headlinks {
+    display: inline-block;
+    height: 87px;
+    line-height: 95px;
+    width: 125px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0040A8;
+    text-decoration: none;
+}
+a.headlinks:hover {
+	text-decoration: underline;
+}
+.page-header {
+    color: #0040A8;
+	width: 980px;
+    font-size: 20px;
+	font-weight: bold;
+    border-bottom: 5px solid #0040A8;
+	height: 25px;
+	margin-bottom: 25px;
+}
+.page-subheader {
+    color: #0040A8;
+	width: 980px;
+    font-size: 20px;
+	font-weight: bold;
+    border-bottom: 2px solid #0040A8;
+	height: 25px;
+	margin-bottom: 25px;
+}
+body footer {
+    width: 980px;
+    font-size: 11px;
+    border-top: 2px solid #0040A8;
+	margin-top: 25px;
+}
+body footer #footer-internal {
+	width: 400px;
+	margin: 0px auto;
+	color: #0040A8;
+	font-weight: bold;
+	padding: 15px 0px;
+}
